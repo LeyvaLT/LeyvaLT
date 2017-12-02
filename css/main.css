@@ -1,0 +1,454 @@
+@font-face {
+    font-family: 'icomoon';
+    src:  url('fonts/icomoon.eot?kqcpu6');
+    src:  url('fonts/icomoon.eot?kqcpu6#iefix') format('embedded-opentype'),
+    url('fonts/icomoon.ttf?kqcpu6') format('truetype'),
+    url('fonts/icomoon.woff?kqcpu6') format('woff'),
+    url('fonts/icomoon.svg?kqcpu6#icomoon') format('svg');
+    font-weight: normal;
+    font-style: normal;
+}
+
+[class^="icon-"], [class*=" icon-"] {
+    /* use !important to prevent issues with browser extensions that change fonts */
+    font-family: 'icomoon' !important;
+    speak: none;
+    font-style: normal;
+    font-weight: normal;
+    font-variant: normal;
+    text-transform: none;
+    line-height: 1;
+
+    /* Better Font Rendering =========== */
+    -webkit-font-smoothing: antialiased;
+    -moz-osx-font-smoothing: grayscale;
+}
+
+.icon-file-html:before {
+    content: "\e916";
+}
+.icon-file-html2:before {
+    content: "\e917";
+}
+.icon-file-java:before {
+    content: "\e918";
+}
+.icon-file-java2:before {
+    content: "\e919";
+}
+.icon-file-psd:before {
+    content: "\e91a";
+}
+.icon-file-php:before {
+    content: "\e91b";
+}
+.icon-file-php2:before {
+    content: "\e91c";
+}
+.icon-file-sql:before {
+    content: "\e91d";
+}
+.icon-file-sql2:before {
+    content: "\e91e";
+}
+.icon-file-xml:before {
+    content: "\e91f";
+}
+.icon-data:before {
+    content: "\e920";
+}
+.icon-transformers:before {
+    content: "\e921";
+}
+.icon-atom:before {
+    content: "\e903";
+}
+.icon-beer:before {
+    content: "\f069";
+}
+.icon-briefcase:before {
+    content: "\f0d3";
+}
+.icon-bug:before {
+    content: "\f091";
+}
+.icon-database2:before {
+    content: "\f096";
+}
+.icon-logo-github:before {
+    content: "\f092";
+}
+.icon-mark-github:before {
+    content: "\f00a";
+}
+.icon-mention:before {
+    content: "\f0be";
+}
+.icon-mortar-board:before {
+    content: "\f0d7";
+    color: #429191;
+}
+.icon-octoface:before {
+    content: "\f008";
+}
+.icon-terminal2:before {
+    content: "\f0c8";
+}
+.icon-three-bars:before {
+    content: "\f05e";
+}
+.icon-database3:before {
+    content: "\e922";
+}
+.icon-globe:before {
+    content: "\e900";
+}
+.icon-home3:before {
+    content: "\e902";
+}
+.icon-location2:before {
+    content: "\e948";
+}
+.icon-mobile:before {
+    content: "\e958";
+}
+.icon-database:before {
+    content: "\e964";
+}
+.icon-quotes-left:before {
+    content: "\e977";
+}
+.icon-quotes-right:before {
+    content: "\e978";
+}
+.icon-cogs:before {
+    content: "\e995";
+}
+.icon-hammer:before {
+    content: "\e996";
+}
+.icon-glass:before {
+    content: "\e9a0";
+}
+.icon-mug:before {
+    content: "\e9a2";
+}
+.icon-fire:before {
+    content: "\e9a9";
+}
+.icon-shield:before {
+    content: "\e9b4";
+}
+.icon-embed2:before {
+    content: "\ea80";
+}
+.icon-terminal:before {
+    content: "\ea81";
+}
+.icon-mail:before {
+    content: "\ea83";
+}
+.icon-mail2:before {
+    content: "\ea84";
+}
+.icon-mail3:before {
+    content: "\ea85";
+}
+.icon-mail4:before {
+    content: "\ea86";
+}
+.icon-amazon:before {
+    content: "\ea87";
+}
+.icon-facebook:before {
+    content: "\ea90";
+}
+.icon-facebook2:before {
+    content: "\ea91";
+}
+.icon-instagram:before {
+    content: "\ea92";
+}
+.icon-github:before {
+    content: "\eab0";
+}
+.icon-tux:before {
+    content: "\eabd";
+}
+.icon-android:before {
+    content: "\eac0";
+}
+.icon-html-five:before {
+    content: "\eae4";
+}
+.icon-html-five2:before {
+    content: "\eae5";
+}
+.icon-css3:before {
+    content: "\eae6";
+}
+.icon-git:before {
+    content: "\eae7";
+}
+.icon-svg:before {
+    content: "\eae9";
+    color: #429191;
+}
+.icon-barbell:before {
+    content: "\e923";
+}
+.icon-github2:before {
+    content: "\e924";
+}
+.icon-gitlab:before {
+    content: "\e925";
+}
+.icon-business_center:before {
+    content: "\eb3f";
+    color: #429191;
+}
+.icon-contact_mail:before {
+    content: "\e0d0";
+}
+.icon-directions_run:before {
+    content: "\e566";
+}
+.icon-fitness_center:before {
+    content: "\eb43";
+}
+.icon-free_breakfast:before {
+    content: "\eb44";
+}
+.icon-http:before {
+    content: "\e926";
+}
+.icon-world-outline:before {
+    content: "\e901";
+}
+.icon-gamepad:before {
+    content: "\e927";
+}
+.icon-brand:before {
+    content: "\e904";
+    color: #a4c639;
+}
+.icon-brand2:before {
+    content: "\e905";
+    color: #7d8084;
+}
+.icon-brand3:before {
+    content: "\e906";
+    color: #563d7c;
+}
+.icon-brand4:before {
+    content: "\e907";
+    color: #1572b6;
+}
+.icon-brand5:before {
+    content: "\e908";
+    color: #f43059;
+}
+.icon-brand6:before {
+    content: "\e909";
+    color: #3b5998;
+}
+.icon-brand7:before {
+    content: "\e90a";
+    color: #f14e32;
+}
+.icon-brand8:before {
+    content: "\e90b";
+}
+.icon-brand9:before {
+    content: "\e90c";
+    color: #e24329;
+}
+.icon-brand10:before {
+    content: "\e90d";
+    color: #e34f26;
+}
+.icon-brand11:before {
+    content: "\e90e";
+    color: #f7df1e;
+}
+.icon-brand12:before {
+    content: "\e90f";
+    color: #5091cd;
+}
+.icon-brand13:before {
+    content: "\e910";
+    color: #e50914;
+}
+.icon-brand14:before {
+    content: "\e911";
+    color: #00d8ff;
+}
+.icon-brand15:before {
+    content: "\e912";
+    color: #c69;
+}
+.icon-brand16:before {
+    content: "\e913";
+    color: #12b7f5;
+}
+.icon-brand17:before {
+    content: "\e914";
+    color: #dd4814;
+}
+.icon-brand18:before {
+    content: "\e915";
+    color: #21759b;
+}
+
+.avatar{
+    width: 100%;
+}
+
+.main{
+    width: 100%;
+    position: relative;
+    padding: 1rem;
+}
+
+.contacto h3{
+    text-align: center;
+    color: #516175;
+    font-size: 1.3rem;
+
+}
+
+.skills h3{
+    color: #516175;
+    font-size: 1.3rem;
+}
+
+.experiencia .etiqueta{
+    color: white;
+    background-color: #429191;
+    border-radius: 5px;
+    padding: 0.3rem;
+}
+.experiencia .esp{
+    color: #429191;
+}
+
+.experiencia,.educacion,.pasatiempos h2,h3{
+    color: #516175;
+}
+
+.experiencia h2{
+    font-size: 2rem;
+}
+
+
+
+.aside{
+    display: inline-block;
+
+    height: 100%;
+    width: 35%;
+    border-radius: 2px;
+    -webkit-box-shadow: 6px 2px 17px 9px rgba(0,0,0,0.17);
+    -moz-box-shadow: 6px 2px 17px 9px rgba(0,0,0,0.17);
+    box-shadow: 6px 2px 17px 9px rgba(0,0,0,0.17);
+
+}
+
+.aside .contacto{
+    padding: 1rem;
+}
+
+.aside .skills{
+    padding: 1rem;
+}
+.experiencia{
+    padding: 1rem;
+    position: absolute;
+    right: 75px;
+    display: inline-block;
+
+    width: 56%;
+    border-radius: 2px;
+    -webkit-box-shadow: 6px 2px 17px 9px rgba(0,0,0,0.17);
+    -moz-box-shadow: 6px 2px 17px 9px rgba(0,0,0,0.17);
+    box-shadow: 6px 2px 17px 9px rgba(0,0,0,0.17);
+}
+
+.educacion{
+    padding: 1rem;
+    position: absolute;
+    right: 75px;
+    top:26rem;
+    display: inline-block;
+
+    width: 56%;
+    border-radius: 2px;
+    -webkit-box-shadow: 6px 2px 17px 9px rgba(0,0,0,0.17);
+    -moz-box-shadow: 6px 2px 17px 9px rgba(0,0,0,0.17);
+    box-shadow: 6px 2px 17px 9px rgba(0,0,0,0.17);
+
+}
+
+.educacion,.pasatiempos, .experiencia span,p{
+    color: black;
+}
+
+.educacion h2{
+    color: #516175;
+}
+.pasatiempos{
+    padding: 1rem;
+    position: absolute;
+    right: 75px;
+    top:49.8rem;
+    display: inline-block;
+
+    width: 56%;
+    border-radius: 2px;
+    -webkit-box-shadow: 6px 2px 17px 9px rgba(0,0,0,0.17);
+    -moz-box-shadow: 6px 2px 17px 9px rgba(0,0,0,0.17);
+    box-shadow: 6px 2px 17px 9px rgba(0,0,0,0.17);
+
+}
+
+
+.footer{
+    font-size: 1.2em;
+    padding: 1rem;
+    text-align: center;
+    margin-top: 1rem;
+    color: white;
+    background-color: #429191;
+    height: 120px;
+    width: 100%;
+    border-radius: 2px;
+    -webkit-box-shadow: 6px 2px 17px 9px rgba(0,0,0,0.17);
+    -moz-box-shadow: 6px 2px 17px 9px rgba(0,0,0,0.17);
+    box-shadow: 6px 2px 17px 9px rgba(0,0,0,0.17);
+
+}
+
+
+.footer a{
+    text-decoration: none;
+}
+
+.contacto span{
+    font-size: 1.2rem;
+}
+
+
+.footer  a span{
+    text-decoration: none;
+    color: white;
+    font-size: 1.5rem;
+    margin: 0.5rem;
+}
+
+.skills span{
+    font-size: 1.2rem;
+}
+
+.skills progress{
+    width: 90%;
+}
