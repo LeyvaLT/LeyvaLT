@@ -362,7 +362,7 @@
     padding: 1rem;
 }
 .experiencia{
-    padding: 1.5rem;
+    padding: 1.1rem;
     position: absolute;
     right: 75px;
     display: inline-block;
@@ -375,10 +375,10 @@
 }
 
 .educacion{
-    padding: 1.5rem;
+    padding: 1.1rem;
     position: absolute;
     right: 75px;
-    top:70rem;
+    top:60rem;
     display: inline-block;
 
     width: 56%;
@@ -397,7 +397,7 @@
     color: #516175;
 }
 .pasatiempos{
-    padding: 1.5rem;
+    padding: 1.1rem;
     position: absolute;
     right: 75px;
     top:83rem;
