@@ -300,13 +300,30 @@
     color: #21759b;
 }
 
+
+/*----------------------------------MAIN-------------------------------------*/
+
 .avatar{
     width: 100%;
 }
+.aside{
+    float: left;
+    margin-right: 2rem;
+    display: inline-block;
+    min-height: 100%;
+    width: 30%;
+    border-radius: 2px;
+    -webkit-box-shadow: 6px 2px 17px 9px rgba(0,0,0,0.17);
+    -moz-box-shadow: 6px 2px 17px 9px rgba(0,0,0,0.17);
+    box-shadow: 6px 2px 17px 9px rgba(0,0,0,0.17);
 
-.main{
-    width: 100%;
-    position: relative;
+}
+
+.aside .contacto{
+    padding: 1rem;
+}
+
+.aside .skills{
     padding: 1rem;
 }
 
@@ -317,12 +334,17 @@
 
 }
 
-.skills h3{
-    color: #516175;
-    font-size: 1.3rem;
+.contacto span{
+    font-size: 1.2rem;
 }
 
-.experiencia .etiqueta{
+ .contenido {
+
+    width: 60%;
+    display: inline-block;
+ }
+
+ .experiencia .etiqueta{
     color: white;
     background-color: #429191;
     border-radius: 5px;
@@ -340,34 +362,10 @@
     font-size: 2rem;
 }
 
-
-
-.aside{
-    display: inline-block;
-
-    height: 100%;
-    width: 35%;
-    border-radius: 2px;
-    -webkit-box-shadow: 6px 2px 17px 9px rgba(0,0,0,0.17);
-    -moz-box-shadow: 6px 2px 17px 9px rgba(0,0,0,0.17);
-    box-shadow: 6px 2px 17px 9px rgba(0,0,0,0.17);
-
-}
-
-.aside .contacto{
-    padding: 1rem;
-}
-
-.aside .skills{
-    padding: 1rem;
-}
 .experiencia{
     padding: 1rem;
-    position: absolute;
-    right: 75px;
+    width: 100%;
     display: inline-block;
-
-    width: 56%;
     border-radius: 2px;
     -webkit-box-shadow: 6px 2px 17px 9px rgba(0,0,0,0.17);
     -moz-box-shadow: 6px 2px 17px 9px rgba(0,0,0,0.17);
@@ -376,12 +374,9 @@
 
 .educacion{
     padding: 1rem;
-    position: absolute;
-    right: 75px;
-    top:61rem;
+    margin-top: 1.5rem;
+    width: 100%;
     display: inline-block;
-
-    width: 56%;
     border-radius: 2px;
     -webkit-box-shadow: 6px 2px 17px 9px rgba(0,0,0,0.17);
     -moz-box-shadow: 6px 2px 17px 9px rgba(0,0,0,0.17);
@@ -396,21 +391,6 @@
 .educacion h2{
     color: #516175;
 }
-.pasatiempos{
-    padding: 1rem;
-    position: absolute;
-    right: 75px;
-    top:85rem;
-    display: inline-block;
-
-    width: 56%;
-    border-radius: 2px;
-    -webkit-box-shadow: 6px 2px 17px 9px rgba(0,0,0,0.17);
-    -moz-box-shadow: 6px 2px 17px 9px rgba(0,0,0,0.17);
-    box-shadow: 6px 2px 17px 9px rgba(0,0,0,0.17);
-
-}
-
 
 .footer{
     font-size: 1.2em;
@@ -433,9 +413,6 @@
     text-decoration: none;
 }
 
-.contacto span{
-    font-size: 1.2rem;
-}
 
 
 .footer  a span{
@@ -445,10 +422,73 @@
     margin: 0.5rem;
 }
 
+.main{
+    /*column-count: 2;*/
+    display: inline-block;
+    width: 100%;
+    padding: 1rem;
+}
+
+.pasatiempos{
+    width: 100%;
+    padding: 1rem;
+    margin-top: 1.5rem;
+    display: inline-block;
+    border-radius: 2px;
+    -webkit-box-shadow: 6px 2px 17px 9px rgba(0,0,0,0.17);
+    -moz-box-shadow: 6px 2px 17px 9px rgba(0,0,0,0.17);
+    box-shadow: 6px 2px 17px 9px rgba(0,0,0,0.17);
+
+}
+
+ .parrafo {
+    text-align: justify;
+    text-justify: inter-word;
+ }
+
+.skills h3{
+    color: #516175;
+    font-size: 1.3rem;
+}
+
 .skills span{
     font-size: 1.2rem;
 }
 
 .skills progress{
     width: 90%;
+}
+
+
+@media only screen and (max-width: 850px) {
+    .main{
+        width: 95%;
+    }
+    .aside{ 
+        margin-left: 15%;
+        width: 70%; 
+    }
+    .contenido{
+        margin-left: 2.5%;
+        margin-top: 1rem; 
+        width: 90%; 
+    }
+    .footer{
+        width: 95%;
+    }
+    .skills span{
+    font-size: 1rem;
+    }
+    .contacto span{
+    font-size: 1rem;
+    }
+
+}
+
+@media only screen and (max-width: 321px) {
+
+    .contacto span{
+    font-size: 0.9rem;
+    }
+
 }
